@@ -6,7 +6,6 @@ void indiNumOutput(int number, int numCount, int loopCount)
 {
     double percentage{static_cast<double>(numCount) / static_cast<double>(loopCount) * 100};
     std::cout << "The number " << number << " was there " << numCount << " times which is " << percentage << " percent of the total\n";
-
 }
 
 int main()
